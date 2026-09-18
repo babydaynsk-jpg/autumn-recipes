@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Уныш Бәйрәме — Праздник урожая</title>
+<meta name="description" content="Уныш Бәйрәме — праздник урожая, традиции и домашние рецепты из тыквы и кабачка.">
+<meta name="theme-color" content="#394d28">
+<style>
+:root{--cream:#f7f1df;--paper:#fffdf6;--green:#394d28;--green2:#50663a;--gold:#bd8b2c;--ink:#303026;--muted:#777064;--line:#e5dcc6;--soft:#f1ead7;--shadow:0 10px 35px rgba(72,61,28,.10)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;overflow-x:hidden;scroll-padding-top:82px}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,"Times New Roman",serif;overflow-x:hidden}
+img{max-width:100%}
+.header{min-height:76px;background:rgba(255,253,246,.97);display:flex;align-items:center;justify-content:space-between;padding:10px max(20px,5vw);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50;backdrop-filter:blur(8px)}
+.logo{font-size:24px;font-weight:700;color:var(--green);line-height:1.05;white-space:nowrap}.logo small{display:block;font:13px Arial,sans-serif;color:#7c786d;margin-top:4px}
+.nav{display:flex;align-items:center;gap:28px}.nav a{color:#4e4b40;text-decoration:none;font:15px Arial,sans-serif;white-space:nowrap}.nav a:hover{color:var(--green)}
+.menu{display:none;border:0;background:transparent;color:var(--green);font-size:28px;cursor:pointer;padding:5px}
+.hero{max-width:1440px;margin:auto;position:relative;background:#eadfca}
+.hero-img{width:100%;height:min(61vw,720px);min-height:470px;display:block;object-fit:cover;object-position:center}
+.hero-copy{position:absolute;left:6%;top:50%;transform:translateY(-50%);width:min(500px,42%);color:var(--green)}
+.hero-copy h1{font-size:clamp(42px,5.1vw,72px);line-height:.98;margin:0 0 10px;letter-spacing:-1px}.hero-copy h2{font-size:clamp(24px,2.3vw,34px);margin:0 0 18px}.hero-copy p{font:17px/1.55 Arial,sans-serif;color:#5c594f;max-width:410px;margin:0}
+.ornament{font-size:28px;color:var(--gold);margin:16px 0 0}
+.btn{display:inline-block;margin-top:20px;padding:14px 25px;background:var(--green);color:white;text-decoration:none;border-radius:30px;font:600 15px Arial,sans-serif;box-shadow:0 5px 14px rgba(57,77,40,.18)}.btn:hover{background:#2f411f}
+section{max-width:1280px;margin:auto;padding:72px 5%}.title{text-align:center;color:var(--green);font-size:clamp(32px,4vw,48px);line-height:1.1;margin:0 0 12px}.lead{text-align:center;font:16px/1.65 Arial,sans-serif;color:var(--muted);margin:0 auto 42px;max-width:760px}
+.recipe-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.recipe{overflow:hidden;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:30px;box-shadow:var(--shadow)}
+.recipe-photo{width:calc(100% + 60px);height:245px;object-fit:cover;display:block;margin:-30px -30px 25px}.recipe-head{display:flex;gap:15px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:20px}.recipe-icon{font-size:42px;flex:0 0 auto}.recipe h3{color:var(--green);font-size:28px;line-height:1.12;margin:0 0 6px}.recipe-sub{font:14px/1.3 Arial,sans-serif;color:#8a8274}.recipe h4{color:var(--green);font-size:19px;margin:20px 0 9px}.recipe ul,.recipe ol{margin:0;padding-left:22px;font:15px/1.65 Arial,sans-serif;color:#5f5a50}.recipe li{margin-bottom:4px}.note{margin-top:18px;padding:13px 16px;background:var(--soft);border-left:3px solid var(--gold);font:14px/1.5 Arial,sans-serif;color:#625c50}
+.about{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.about-inner{max-width:820px;margin:auto;text-align:center}.about-inner p{font:16px/1.75 Arial,sans-serif;color:var(--muted)}
+footer{text-align:center;padding:38px 20px;background:#eee6cd;color:var(--green);font-size:25px}.footer-small{display:block;font:13px Arial,sans-serif;color:#777064;margin-top:7px}
+@media(max-width:900px){
+  .header{padding:10px 18px}.logo{font-size:20px}.logo small{font-size:12px}.menu{display:block}.nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--paper);padding:12px 18px 18px;border-bottom:1px solid var(--line);box-shadow:0 8px 20px rgba(50,45,25,.10);flex-direction:column;align-items:stretch;gap:0}.nav.open{display:flex}.nav a{padding:13px 4px;border-bottom:1px solid var(--line);font-size:14px}.nav a:last-child{border-bottom:0}
+  .hero-img{height:420px;min-height:0;object-position:center}.hero-copy{position:relative;left:auto;top:auto;transform:none;width:auto;padding:32px 7% 38px;background:var(--paper)}.hero-copy h1{font-size:45px}.hero-copy h2{font-size:27px}.hero-copy p{font-size:15px}.ornament{margin-top:12px}.recipe-grid{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  html{scroll-padding-top:70px}.header{min-height:64px}.logo{font-size:18px}.logo small{font-size:11px}.menu{font-size:26px}
+  .hero-img{height:300px;object-position:center}.hero-copy{padding:25px 18px 30px}.hero-copy h1{font-size:36px;letter-spacing:-.5px}.hero-copy h2{font-size:22px;margin-bottom:12px}.hero-copy p{font-size:14px;line-height:1.5}.btn{width:100%;text-align:center;margin-top:18px;padding:13px 18px;font-size:14px}
+  section{padding:42px 14px}.title{font-size:29px}.lead{font-size:14px;line-height:1.55;margin-bottom:28px}.recipe-grid{gap:20px}.recipe{padding:17px;border-radius:13px}.recipe-photo{width:calc(100% + 34px);height:190px;margin:-17px -17px 18px}.recipe-head{gap:10px;padding-bottom:14px;margin-bottom:15px}.recipe-icon{font-size:34px}.recipe h3{font-size:22px}.recipe-sub{font-size:12px}.recipe h4{font-size:17px;margin:17px 0 8px}.recipe ul,.recipe ol{font-size:14px;line-height:1.55;padding-left:20px}.recipe li{margin-bottom:5px}.note{font-size:13px;line-height:1.45;padding:11px 13px}.about-inner p{font-size:14px;line-height:1.65}footer{padding:28px 14px;font-size:20px}
+}
+@media(max-width:380px){.hero-img{height:255px}.hero-copy h1{font-size:32px}.title{font-size:26px}.recipe-photo{height:170px}}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="logo">🌾 Уныш Бәйрәме<small>Праздник урожая</small></div>
+  <button class="menu" id="menuBtn" aria-label="Открыть меню" aria-expanded="false">☰</button>
+  <nav class="nav" id="nav">
+    <a href="#home">Главная</a><a href="#recipes">Рецепты</a><a href="#about">О празднике</a><a href="#traditions">Традиции</a>
+  </nav>
+</header>
+<main id="home">
+<div class="hero">
+  <img class="hero-img" src="hero.png" alt="Девушка в татарском национальном наряде держит праздничный пирог на осеннем празднике урожая">
+  <div class="hero-copy">
+    <h1>Уныш Бәйрәме</h1><h2>Праздник урожая</h2>
+    <p>Благодарим землю, храним традиции, готовим с любовью!</p><div class="ornament">❧</div>
+    <a class="btn" href="#recipes">Перейти к рецептам&nbsp; →</a>
+  </div>
+</div>
+<section id="recipes">
+  <h2 class="title">Рецепты из тыквы и кабачка</h2>
+  <p class="lead">Шесть уютных осенних блюд — с фотографиями, ингредиентами и пошаговым приготовлением. Всё находится на одной странице.</p>
+  <div class="recipe-grid">
+    <article class="recipe"><img class="recipe-photo" src="images/pumpkin-pie.jpg" alt="Тыквенный пирог"><div class="recipe-head"><div class="recipe-icon">🥧</div><div><h3>Тыквенный пирог</h3><div class="recipe-sub">8 порций · около 1 часа 20 минут</div></div></div><h4>Ингредиенты</h4><ul><li>Мука — 250 г</li><li>Сливочное масло — 120 г</li><li>Яйцо — 1 шт.</li><li>Тыква — 500 г</li><li>Сахар — 100 г</li><li>Сливки 20% — 100 мл</li><li>Корица — 1 ч. л.</li><li>Щепотка соли</li></ul><h4>Приготовление</h4><ol><li>Очищенную тыкву нарежьте и запеките до мягкости, затем измельчите в пюре.</li><li>Муку смешайте с солью, добавьте холодное масло и перетрите в крошку.</li><li>Добавьте яйцо, быстро замесите тесто и уберите в холодильник на 20 минут.</li><li>Раскатайте тесто, выложите в форму и сформируйте бортики.</li><li>Смешайте тыквенное пюре, сахар, сливки и корицу. Вылейте начинку на основу.</li><li>Выпекайте при 180 °C около 40–45 минут. Перед нарезкой остудите.</li></ol><div class="note">Совет: для праздничной подачи украсьте пирог тыквенными семечками или фигурками из теста.</div></article>
+    <article class="recipe"><img class="recipe-photo" src="images/pumpkin-soup.jpg" alt="Крем-суп из тыквы"><div class="recipe-head"><div class="recipe-icon">🎃</div><div><h3>Крем-суп из тыквы</h3><div class="recipe-sub">4 порции · 40 минут</div></div></div><h4>Ингредиенты</h4><ul><li>Тыква — 700 г</li><li>Картофель — 2 шт.</li><li>Лук — 1 шт.</li><li>Морковь — 1 шт.</li><li>Овощной бульон — 700 мл</li><li>Сливки 10–20% — 100 мл</li><li>Растительное масло — 1 ст. л.</li><li>Соль, перец, мускатный орех — по вкусу</li></ul><h4>Приготовление</h4><ol><li>Лук и морковь нарежьте и слегка обжарьте в кастрюле на масле.</li><li>Добавьте кубики тыквы и картофеля.</li><li>Залейте бульоном, доведите до кипения и варите 20–25 минут до мягкости овощей.</li><li>Пробейте суп блендером до однородной консистенции.</li><li>Добавьте сливки, соль, перец и немного мускатного ореха.</li><li>Прогрейте ещё 2–3 минуты, не доводя сливки до сильного кипения.</li></ol><div class="note">Совет: подавайте с тыквенными семечками, зеленью и небольшим количеством сливок.</div></article>
+    <article class="recipe"><img class="recipe-photo" src="images/stuffed-pumpkin.jpg" alt="Фаршированная тыква"><div class="recipe-head"><div class="recipe-icon">🍲</div><div><h3>Фаршированная тыква</h3><div class="recipe-sub">4 порции · около 1 часа 30 минут</div></div></div><h4>Ингредиенты</h4><ul><li>Небольшая тыква — 1 шт. (1,5–2 кг)</li><li>Рис — 150 г</li><li>Мясной фарш — 300 г</li><li>Лук — 1 шт.</li><li>Морковь — 1 шт.</li><li>Сметана — 2 ст. л.</li><li>Соль и перец — по вкусу</li><li>Растительное масло — 1 ст. л.</li></ul><h4>Приготовление</h4><ol><li>Срежьте у тыквы верхушку и удалите семена и часть мякоти.</li><li>Рис отварите до полуготовности.</li><li>Лук и морковь обжарьте, добавьте фарш и готовьте 7–10 минут.</li><li>Смешайте фарш с рисом, посолите и поперчите.</li><li>Наполните тыкву начинкой, сверху добавьте сметану и накройте крышечкой.</li><li>Запекайте при 180 °C около 60 минут, пока тыква не станет мягкой.</li></ol><div class="note">Совет: время зависит от размера тыквы. Готовность проверяйте ножом по стенке тыквы.</div></article>
+    <article class="recipe"><img class="recipe-photo" src="images/zucchini-fritters.jpg" alt="Оладьи из кабачков"><div class="recipe-head"><div class="recipe-icon">🥞</div><div><h3>Оладьи из кабачков</h3><div class="recipe-sub">3–4 порции · 30 минут</div></div></div><h4>Ингредиенты</h4><ul><li>Кабачки — 2 средних (около 600 г)</li><li>Яйца — 2 шт.</li><li>Мука — 4–5 ст. л.</li><li>Чеснок — 1 зубчик</li><li>Зелень — небольшой пучок</li><li>Соль и перец — по вкусу</li><li>Масло для жарки</li></ul><h4>Приготовление</h4><ol><li>Натрите кабачки на крупной тёрке, слегка посолите и оставьте на 10 минут.</li><li>Хорошо отожмите лишний сок.</li><li>Добавьте яйца, муку, измельчённый чеснок и зелень, поперчите.</li><li>Перемешайте до густой массы.</li><li>Выкладывайте ложкой на разогретую сковороду и жарьте по 2–3 минуты с каждой стороны.</li><li>Подавайте горячими со сметаной.</li></ol><div class="note">Совет: чем лучше отжать кабачок, тем румянее и плотнее получатся оладьи.</div></article>
+    <article class="recipe"><img class="recipe-photo" src="images/zucchini-casserole.jpg" alt="Запеканка из кабачков"><div class="recipe-head"><div class="recipe-icon">🫕</div><div><h3>Запеканка из кабачков</h3><div class="recipe-sub">4–6 порций · 50 минут</div></div></div><h4>Ингредиенты</h4><ul><li>Кабачки — 700 г</li><li>Яйца — 3 шт.</li><li>Сметана — 150 г</li><li>Твёрдый сыр — 120 г</li><li>Мука — 2 ст. л.</li><li>Чеснок — 1 зубчик</li><li>Зелень — по вкусу</li><li>Соль и перец — по вкусу</li></ul><h4>Приготовление</h4><ol><li>Кабачки нарежьте тонкими кружочками или полукружьями.</li><li>Смешайте яйца, сметану, муку, половину тёртого сыра и измельчённый чеснок.</li><li>Посолите и поперчите. Добавьте зелень.</li><li>Выложите кабачки в форму и залейте смесью.</li><li>Посыпьте оставшимся сыром.</li><li>Запекайте при 180 °C около 35–40 минут до золотистой корочки.</li></ol><div class="note">Совет: дайте запеканке постоять 10 минут после духовки — так её будет легче красиво нарезать.</div></article>
+    <article class="recipe"><img class="recipe-photo" src="images/pickled-zucchini.jpg" alt="Маринованные кабачки"><div class="recipe-head"><div class="recipe-icon">🥒</div><div><h3>Маринованные кабачки</h3><div class="recipe-sub">1 банка 1 л · около 30 минут + охлаждение</div></div></div><h4>Ингредиенты</h4><ul><li>Кабачки — 600–700 г</li><li>Вода — 500 мл</li><li>Уксус 9% — 50 мл</li><li>Сахар — 1 ст. л.</li><li>Соль — 1 ст. л. без горки</li><li>Чеснок — 2 зубчика</li><li>Укроп — несколько веточек</li><li>Перец горошком — 5–6 шт.</li></ul><h4>Приготовление</h4><ol><li>Кабачки нарежьте тонкими кружочками или брусочками.</li><li>В чистую банку положите укроп, чеснок и перец.</li><li>Плотно уложите кабачки.</li><li>Воду доведите до кипения, растворите соль и сахар, затем снимите с огня и добавьте уксус.</li><li>Залейте кабачки маринадом.</li><li>После охлаждения уберите в холодильник минимум на несколько часов, лучше на ночь.</li></ol><div class="note">Важно: этот быстрый вариант предназначен для хранения в холодильнике, а не для длительного хранения при комнатной температуре.</div></article>
+  </div>
+</section>
+<section id="about" class="about"><div class="about-inner"><h2 class="title">О празднике</h2><p>Уныш Бәйрәме — праздник урожая и благодарности за плоды земли. Это повод собрать семью за общим столом, приготовить блюда из нового урожая и передать тепло традиций следующим поколениям.</p></div></section>
+<section id="traditions"><div class="about-inner"><h2 class="title">Традиции</h2><p>Праздничный стол, домашняя выпечка, блюда из нового урожая, музыка, встречи с близкими и добрые пожелания — всё, что объединяет людей в осенний праздник.</p></div></section>
+</main>
+<footer>Уныш булсын! · Пусть урожай будет богатым 🌾<span class="footer-small">С любовью к традициям и домашней кухне</span></footer>
+<script>
+const btn=document.getElementById('menuBtn');const nav=document.getElementById('nav');
+btn.addEventListener('click',()=>{const open=nav.classList.toggle('open');btn.setAttribute('aria-expanded',open);btn.textContent=open?'✕':'☰'});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');btn.setAttribute('aria-expanded','false');btn.textContent='☰'}));
+</script>
+</body>
+</html>
